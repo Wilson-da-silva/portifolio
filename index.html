@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet">
+    <title>Wilson</title>
+</head>
+<body>
+
+    <header>
+        <img id="img-perfil" src="./img/img.jpg" alt="foto">
+        <h1>@dev.wilson_</h1>
+    </header>
+
+    <main>
+        <iframe id="videocanal" width="560" height="315" src="https://www.youtube.com/embed/zKK0oKXvRqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form id="form">
+            <a class="a" id="canal" onclick="video()"><img class="img" src="./img/marketing-de-video.png" alt=""><h2 id="h2">Sobre o meu Canal</h2></a>
+            <a class="a" href="https://github.com/Wilson-da-silva" target="blank"><img class="img" src="./img/github.png" alt=""><h2>Github</h2></a>
+            <a class="a" href="https://www.instagram.com/dev.wilson_/" target="blank"><img class="img" src="./img/instagram.png" alt=""><h2>Instagram</h2></a>
+            <a class="a" href="https://www.youtube.com/channel/UC61YqSJXXjb622yC7vnS2VQ" target="blank"><img class="img" src="./img/youtube.png" alt=""><h2>Youtube</h2></a>
+            <a class="a" href="https://www.linkedin.com/in/wilson-silva-2256b5225" target="blank"><img class="img" src="./img/linkedin.png" alt=""><h2>Linkedin</h2></a>
+            <a class="a" href="./projeto.html" target="blank"><img class="img" src="./img/pasta-aberta.png" alt=""><h2>Projeto</h2></a>
+        </form>
+    </main>
+
+</body>
+</html>
+
+<script>
+
+    function video() {
+        var exibir = document.getElementById("videocanal");
+        exibir.style.display= "flex";
+    }
+
+
+</script>
